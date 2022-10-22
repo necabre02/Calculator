@@ -1,0 +1,115 @@
+
+.container {
+margin: 6em auto;
+height: 500px;
+width: 400px;
+/* background-color: rgb(167, 167, 167); */
+/* background: rgb(254,158,64);
+background: radial-gradient(circle, 
+
+ rgba(0,212,255,1) 40%, rgba(2,0,36,1) 100%); */
+ background: rgb(30,144,255);
+ background: radial-gradient(circle, rgba(30,144,255,1) 43%, rgba(60,71,82,1) 94%, rgba(60,70,79,1) 100%, rgba(63,63,63,1) 100%);
+border: 3px solid black;
+display: flex;  
+flex-direction: column;
+box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.display {
+font-weight: 600;
+height: 100px;
+width: 92%;
+display: grid;
+ /* background-color: rgb(240, 239, 239);  */
+background-color: rgb(255, 255, 255);
+grid-auto-flow: row;
+grid-template-columns: 1fr;
+margin: 1em ;
+border-radius: 0.3em;
+box-shadow: 0 0 10px rgb(134, 9, 9);
+}
+
+.racunanje {
+    border: 2px solid white;
+    padding: 0 1em; 
+    border-radius: 30%;
+    height: 30px;
+    
+   
+}
+
+.numeration {
+    height: 400px;
+    display: grid;
+grid-template-columns: 75% 25%;
+align-content:stretch;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.left_side{
+    background-color: rgb(235, 235, 235);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* gap: 0.5em;
+padding:0.5em ; */
+
+
+}
+.right_side {
+    background-color: rgb(236, 236, 236);
+    display: grid;
+    grid-auto-flow: row;
+    align-content:stretch;
+    /* padding: 0.5em;
+    gap: 0.6em; */
+    overflow:auto;
+}
+
+body {
+  font-size: 100%;
+  margin: 0;
+}
+button {
+font-size: 140%;
+/* background-color: rgb(39, 39, 39); */
+background-color: rgb(63, 63, 63);
+color: white;
+/* border-radius: 0.25em; */
+border: 1px solid gray;
+position:static;
+}
+
+.equal{
+    background-color: rgb(30,144,255);  
+    color: white;
+    font-size: 260%;
+}
+
+.bigger_sign {
+    background-color: white;
+    font-size: 250%;
+    color: rgb(39, 106, 206);
+    /* border-radius: 0.1em; */
+}
+
+.zagrade{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
+    
+    font-weight: 600;
+    
+}
+.c{ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
+    
+    font-weight: 600;
+}
+.backspace{
+    color: rgb(230, 56, 56);
+}
+.racunica{
+    font-size: 230%;
+}
